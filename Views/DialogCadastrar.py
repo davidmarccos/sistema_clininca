@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'DialogCadastrar.ui'
+#
+# Created by: PyQt5 UI code generator 5.8.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_DialogCadastrar(object):
+    def setupUi(self, DialogCadastrar):
+        DialogCadastrar.setObjectName("DialogCadastrar")
+        DialogCadastrar.setWindowModality(QtCore.Qt.ApplicationModal)
+        DialogCadastrar.resize(628, 597)
+        DialogCadastrar.setMinimumSize(QtCore.QSize(628, 597))
+        DialogCadastrar.setMaximumSize(QtCore.QSize(628, 597))
+        self.label = QtWidgets.QLabel(DialogCadastrar)
+        self.label.setGeometry(QtCore.QRect(60, 20, 501, 81))
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(DialogCadastrar)
+        self.label_2.setGeometry(QtCore.QRect(70, 130, 71, 31))
+        self.label_2.setObjectName("label_2")
+        self.txt_nome = QtWidgets.QLineEdit(DialogCadastrar)
+        self.txt_nome.setGeometry(QtCore.QRect(70, 160, 491, 27))
+        self.txt_nome.setInputMethodHints(QtCore.Qt.ImhNone)
+        self.txt_nome.setInputMask("")
+        self.txt_nome.setObjectName("txt_nome")
+        self.label_3 = QtWidgets.QLabel(DialogCadastrar)
+        self.label_3.setGeometry(QtCore.QRect(70, 190, 101, 31))
+        self.label_3.setObjectName("label_3")
+        self.txt_endereco = QtWidgets.QLineEdit(DialogCadastrar)
+        self.txt_endereco.setGeometry(QtCore.QRect(70, 220, 491, 27))
+        self.txt_endereco.setInputMethodHints(QtCore.Qt.ImhNone)
+        self.txt_endereco.setObjectName("txt_endereco")
+        self.label_4 = QtWidgets.QLabel(DialogCadastrar)
+        self.label_4.setGeometry(QtCore.QRect(70, 250, 101, 31))
+        self.label_4.setObjectName("label_4")
+        self.txt_telefone = QtWidgets.QLineEdit(DialogCadastrar)
+        self.txt_telefone.setInputMask("(00)00000-0000")
+        self.txt_telefone.setGeometry(QtCore.QRect(70, 280, 201, 27))
+        self.txt_telefone.setInputMethodHints(QtCore.Qt.ImhPreferNumbers)
+        self.txt_telefone.setObjectName("txt_telefone")
+        self.label_5 = QtWidgets.QLabel(DialogCadastrar)
+        self.label_5.setGeometry(QtCore.QRect(70, 310, 51, 31))
+        self.label_5.setObjectName("label_5")
+        self.txt_cpf = QtWidgets.QLineEdit(DialogCadastrar)
+        self.txt_cpf.setInputMask("000.000.000-00")
+        self.txt_cpf.setGeometry(QtCore.QRect(70, 340, 201, 27))
+        self.txt_cpf.setInputMethodHints(QtCore.Qt.ImhPreferNumbers)
+        self.txt_cpf.setObjectName("txt_cpf")
+        self.label_6 = QtWidgets.QLabel(DialogCadastrar)
+        self.label_6.setGeometry(QtCore.QRect(70, 370, 161, 31))
+        self.label_6.setObjectName("label_6")
+        self.txt_plano_saude = QtWidgets.QLineEdit(DialogCadastrar)
+        self.txt_plano_saude.setGeometry(QtCore.QRect(70, 400, 491, 27))
+        self.txt_plano_saude.setObjectName("txt_plano_saude")
+        self.label_7 = QtWidgets.QLabel(DialogCadastrar)
+        self.label_7.setGeometry(QtCore.QRect(70, 430, 101, 31))
+        self.label_7.setObjectName("label_7")
+        self.txt_numero_plano = QtWidgets.QLineEdit(DialogCadastrar)
+        self.txt_numero_plano.setGeometry(QtCore.QRect(70, 460, 201, 27))
+        self.txt_numero_plano.setInputMethodHints(QtCore.Qt.ImhPreferNumbers)
+        self.txt_numero_plano.setObjectName("txt_numero_plano")
+        self.btn_cadastrar = QtWidgets.QPushButton(DialogCadastrar)
+        self.btn_cadastrar.setGeometry(QtCore.QRect(308, 530, 111, 41))
+        self.btn_cadastrar.setObjectName("btn_cadastrar")
+        self.btn_cancelar = QtWidgets.QPushButton(DialogCadastrar)
+        self.btn_cancelar.setGeometry(QtCore.QRect(430, 530, 111, 41))
+        self.btn_cancelar.setObjectName("btn_cancelar")
+
+        self.retranslateUi(DialogCadastrar)
+        QtCore.QMetaObject.connectSlotsByName(DialogCadastrar)
+
+    def retranslateUi(self, DialogCadastrar):
+        _translate = QtCore.QCoreApplication.translate
+        DialogCadastrar.setWindowTitle(_translate("DialogCadastrar", "Cadastrar Cliente"))
+        self.label.setText(_translate("DialogCadastrar", "<html><head/><body><p><span style=\" font-size:48pt;\">Cadastrar Cliente</span></p></body></html>"))
+        self.label_2.setText(_translate("DialogCadastrar", "<html><head/><body><p><span style=\" font-size:16pt; font-weight:600;\">Nome:</span></p></body></html>"))
+        self.txt_nome.setPlaceholderText(_translate("DialogCadastrar", "Digite o nome completo"))
+        self.label_3.setText(_translate("DialogCadastrar", "<html><head/><body><p><span style=\" font-size:16pt; font-weight:600;\">Endereço:</span></p></body></html>"))
+        self.txt_endereco.setPlaceholderText(_translate("DialogCadastrar", "Digite o endereço"))
+        self.label_4.setText(_translate("DialogCadastrar", "<html><head/><body><p><span style=\" font-size:16pt; font-weight:600;\">Telefone:</span></p></body></html>"))
+        self.label_5.setText(_translate("DialogCadastrar", "<html><head/><body><p><span style=\" font-size:16pt; font-weight:600;\">CPF:</span></p></body></html>"))
+        self.label_6.setText(_translate("DialogCadastrar", "<html><head/><body><p><span style=\" font-size:16pt; font-weight:600;\">Plano de Saúde:</span></p></body></html>"))
+        self.txt_plano_saude.setPlaceholderText(_translate("DialogCadastrar", "Digite o nome do plano"))
+        self.label_7.setText(_translate("DialogCadastrar", "<html><head/><body><p><span style=\" font-size:16pt; font-weight:600;\">Nº Plano:</span></p></body></html>"))
+        self.txt_numero_plano.setPlaceholderText(_translate("DialogCadastrar", "Digite o numero de matricula"))
+        self.btn_cadastrar.setText(_translate("DialogCadastrar", "Cadastrar"))
+        self.btn_cancelar.setText(_translate("DialogCadastrar", "Cancelar"))
+
